@@ -85,6 +85,7 @@ Future<Order> processReceipt(
       }
 
     Make sure to set a default value of 0 for any fields that cannot be extracted.
+    Remember that these fields can have minor differences in naming and formatting, so please ensure that the values are correctly extracted. Please extract the values that are closest to my json data.
       ```""";
 
     final content = [Content.text(prompt)];
