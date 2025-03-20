@@ -83,6 +83,8 @@ Future<Order> processReceipt(
         "tax": Tax,
         "total": Total
       }
+
+    Make sure to set a default value of 0 for any fields that cannot be extracted.
       ```""";
 
     final content = [Content.text(prompt)];
