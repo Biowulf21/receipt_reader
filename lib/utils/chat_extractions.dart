@@ -84,7 +84,7 @@ Future<Order> processReceipt(
         "total": Total
       }
 
-    Make sure to set a default value of 0 for the subtotal, tax, and total fields that cannot be extracted.
+    Make sure to set a default value of 0 for the subtotal, tax, and total fields that cannot be extracted. Keep in mind that some values might be handwritten so you'll need to make your best guess at what the value is.
     Remember that these fields can have minor differences in naming and formatting, so please ensure that the values are correctly extracted. Please extract the values that are closest to my json data.
       ```""";
 
