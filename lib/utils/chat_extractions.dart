@@ -50,7 +50,7 @@ Future<Order> processReceipt(
 ) async {
   try {
     final model = GenerativeModel(
-      model: 'gemini-2.0-flash-latest',
+      model: 'gemini-2.0-flash',
       apiKey: api,
     );
 
